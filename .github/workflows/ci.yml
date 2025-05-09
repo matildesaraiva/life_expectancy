@@ -21,10 +21,10 @@ jobs:
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
           echo "$HOME/.local/bin" >> $GITHUB_PATH
+      - name: Update lock file
+        run: poetry lock
       - name: Install dependencies
-        run: |
-          poetry lock --no-update
-          poetry install
+        run: poetry install
       - name: Install setuptools
         run: poetry add --dev setuptools
       - name: Run pylint
