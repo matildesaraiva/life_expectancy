@@ -30,4 +30,4 @@ jobs:
       - name: Run pylint
         run: poetry run pylint life_expectancy
       - name: Run pytest
-        run: poetry run pytest
+        run: poetry run pytest life_expectancy --cov
