@@ -9,6 +9,7 @@ authors = [
 ]
 dependencies = [
     "pandas<2.0.0",
+    "ipykernel (>=6.29.5,<7.0.0)",
 ]
 
 [project.optional-dependencies]
