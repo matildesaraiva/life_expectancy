@@ -34,7 +34,6 @@ fail_under = 80
 name = "life_expectancy"
 version = "0.1.0"
 description = "Foundations Learning Path"
-authors = ["Matilde Saraiva <matilde.soares.saraiva@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
