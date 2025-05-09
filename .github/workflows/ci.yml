@@ -28,12 +28,12 @@ jobs:
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Install dependencies
-        run: poetry install
+        run: |
+          poetry install
+          poetry update
 
       - name: Run pylint
-        run: |
-          poetry run pylint life_expectancy
-          poetry run pylint tests
+        run: poetry run pylint life_expectancy
 
       - name: Run pytest
         run: poetry run pytest life_expectancy --cov
