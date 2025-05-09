@@ -31,7 +31,7 @@ jobs:
         run: poetry install
 
       - name: Run pylint
-        run: poetry run pylint .
+        run: poetry run pylint life_expectancy tests --ignore=__pycache__,.ipynb_checkpoints
 
       - name: Run pytest
-        run: poetry run pytest
+        run: poetry run pytest life_expectancy --cov
