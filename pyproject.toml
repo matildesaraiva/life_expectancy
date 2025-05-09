@@ -33,7 +33,7 @@ fail_under = 80
 [tool.poetry]
 name = "life_expectancy"
 version = "0.1.0"
-description = "First assignment of the Foundations Learning Path"
+description = "Foundations Learning Path"
 readme = "README.md"
 
 [tool.poetry.dependencies]
