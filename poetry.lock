@@ -1656,4 +1656,4 @@ dev = ["pylint", "pytest", "pytest-cov", "toml"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.8,<3.11"
-content-hash = "bd8d4ca85b09913eda5a6a22c45943cb4fce4cdfe5876b3af9f82c1f69630be5"
+content-hash = "000084c436802ade4c969075971d537ddc882a5fa29f392e6ad93bd0c33d95f6"
