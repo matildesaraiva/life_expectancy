@@ -4,9 +4,6 @@ version = "0.1.0"
 readme = "README.md"
 requires-python = ">=3.8"
 description = "First assignment of the Foundations Learning Path"
-authors = [
-    {name = "Matilde Saraiva<matilde.soares.saraiva@gmail.com>"}
-]
 dependencies = [
     "pandas<2.0.0",
     "ipykernel (>=6.29.5,<7.0.0)",
